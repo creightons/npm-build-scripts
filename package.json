@@ -15,7 +15,7 @@
 
     "watch": "concurrently \"npm run watch-css\" \"npm run watch-js\" ",
 
-    "deploy": "npm run build-js && npm run build-css && npm run compress-js && npm run compress-css",
+    "build": "npm run build-js && npm run build-css && npm run compress-js && npm run compress-css",
     
     "start": "browser-sync start --server --files './*.html, dist/*.js, dist/*.css' --ss dist"
   },
