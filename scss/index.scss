@@ -1,5 +1,22 @@
 @import 'constants';
+@import 'extra';
 
 .main {
 	background-color: $primary;
+}
+
+// Test comment
+/* Test block comment */
+.parent-class {
+	display: flex;
+
+	.child-class {
+		flex: 1;
+	}
+}
+
+div {
+	color: red;
+	font-weight: bold;
+	font-size: 20px;
 }
